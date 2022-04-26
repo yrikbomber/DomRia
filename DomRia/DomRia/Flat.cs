@@ -25,10 +25,10 @@ namespace DomRia
             Text = String.Empty;
             ID = 0;
         }
-        public Flat(Price price, Position location, Information_about_the_apartment information_Flat, Realtor realtor, string title, string text, int id)
+        public Flat(Price price, Position position, Information_about_the_apartment information_Flat, Realtor realtor, string title, string text, int id)
         {
             this.price = price;
-            this.location = location;
+            this.location = position;
             this.information_Flat = information_Flat;
 
             this.realtor = realtor;
